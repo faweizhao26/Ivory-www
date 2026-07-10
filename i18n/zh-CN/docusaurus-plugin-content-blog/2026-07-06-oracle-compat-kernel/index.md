@@ -3,7 +3,7 @@ slug: oracle-compat-kernel
 title: "Oracle 为什么能跑在 PostgreSQL 上？答案藏在这套内核里"
 authors: [ZhangChen]
 category: IvorySQL
-image: img/blog/covers/oracle-migration.svg
+image: img/blog/covers/oracle-compat-kernel-zh.png
 tags: [IvorySQL, Oracle, PostgreSQL, Kernel, PL/iSQL, Migration]
 ---
 
