@@ -3,7 +3,7 @@ slug: ivorysql-htap
 title: "IvorySQL HTAP Real-Time Lakehouse Access Engine"
 authors: [陶郑]
 category: IvorySQL
-image: img/blog/covers/oracle-migration.svg
+image: img/blog/covers/ivorysql-htap.png
 tags: [IvorySQL, HTAP, DuckDB, PostgreSQL, Lakehouse, Mooncake]
 ---
 
