@@ -254,6 +254,10 @@ const config = {
                 href: 'https://github.com/IvorySQL/IvorySQL',
               },
               {
+                label: 'IvorySQL AtomGit',
+                href: 'https://atomgit.com/IvorySQL/IvorySQL',
+              },
+              {
                 label: 'IvorySQL Gitee',
                 href: 'https://gitee.com/IvorySQL/',
               },

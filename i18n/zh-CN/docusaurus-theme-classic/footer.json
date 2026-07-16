@@ -47,6 +47,10 @@
     "message": "IvorySQL Gitee",
     "description": "The label of footer link with label=IvorySQL Gitee linking to https://gitee.com/IvorySQL/"
   },
+  "link.item.label.IvorySQL AtomGit": {
+    "message": "IvorySQL AtomGit",
+    "description": "The label of footer link with label=IvorySQL AtomGit linking to https://atomgit.com/IvorySQL/IvorySQL"
+  },
   "link.item.label.Report an issue": {
     "message": "提交问题",
     "description": "The label of footer link with label=Report an issue linking to https://github.com/IvorySQL/IvorySQL/issues/new/choose"
