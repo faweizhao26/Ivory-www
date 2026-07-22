@@ -1,5 +1,5 @@
 ---
-title: 直播预告｜PG 30 周年系列直播第四期：大规模PG生产环境——亿级用户、PB级数据的架构真相
+title: 直播回顾｜PG 30 周年系列直播第四期：PG到底能扛多大？亿级流量、PB级数据的底层真相
 hide_table_of_contents: true
 ---
 
@@ -21,8 +21,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   .speaker-role { color: #424B5D; line-height: 1.8; font-size: 0.96rem; }
   .scene-list { margin: 0; padding-left: 1.2rem; line-height: 2; color: #555; }
   .event-main-img { width: 100%; border-radius: 18px; margin: 24px 0; box-shadow: 0 14px 40px rgba(0,0,0,0.08); }
-  .cta-box { background: linear-gradient(135deg, #7D52F4 0%, #9b7df5 100%); color: #fff; border-radius: 20px; padding: 28px; margin-top: 30px; box-shadow: 0 14px 32px rgba(125,82,244,0.25); }
-  .cta-box p { margin: 0 0 12px; line-height: 1.85; }
   .sidebar-box { border: 1px solid #f0f0f0; border-radius: 16px; padding: 24px; background: #fff; position: sticky; top: 100px; }
   .sidebar-title { font-size: 1.2rem; font-weight: 700; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
   .side-item { display: flex; gap: 12px; margin-bottom: 20px; text-decoration: none !important; color: inherit; transition: all 0.3s; }
@@ -36,16 +34,21 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <div className="container detail-container">
   <div className="detail-content">
     <h1 style={{ fontSize: '2.2rem', marginBottom: '20px', lineHeight: '1.35' }}>
-      直播预告｜PG 30 周年系列直播第四期：大规模PG生产环境——亿级用户、PB级数据的架构真相
+      直播回顾｜PG 到底能扛多大？亿级流量、PB级数据的底层真相
     </h1>
 
     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '20px', color: '#666', marginBottom: '26px', fontSize: '0.97rem' }}>
       <span>📅 2026年7月15日（周三）19:00–20:30</span>
       <span>🌍 线上直播 · 视频号</span>
+      <span>🎥 <a href="https://www.bilibili.com/video/BV1UgKV6vEzK/" target="_blank" rel="noopener noreferrer">观看回放</a></span>
     </div>
 
     <div className="content-text">
-      为致敬 PG 三十周年，中国 PG 分会、TechTalk 技术交流社区、IvorySQL 社区联合发起「三十而立・全球时刻——PG 30 周年系列直播」。<b>第四期直播将于 7 月 15 日开启</b>。
+      2026年7月15日，由中国PG分会、IvorySQL社区与TechTalk技术交流社区联合主办的「三十而立・全球时刻——PG 30周年系列直播」第四期圆满举行。本期主题为 <b>"PG到底能扛多大？——亿级用户、PB级数据的架构真相"</b>。
+    </div>
+
+    <div className="content-text">
+      原定主持人尚雷因身体不适未能出席，由尹海文代班主持。原定嘉宾林春因临时有紧急会议未能上线，实际参与讨论的为唐成与刘智龙两位老师。三位老师围绕大规模PG生产环境的架构真相、性能边界与运维实践，展开了坦诚而深入的对话。
     </div>
 
     <h2 className="section-title">活动信息</h2>
@@ -64,51 +67,54 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
       </div>
       <div className="info-card">
         <div className="info-label">主持人</div>
-        <div className="info-value">尚雷（TechTalk 主理人）</div>
+        <div className="info-value">尹海文（代班主持，尚雷因身体不适未能出席）</div>
       </div>
     </div>
 
     <h2 className="section-title">嘉宾阵容</h2>
     <div className="speaker-grid">
       <div className="speaker-card">
+        <div className="speaker-name">尹海文（代班主持）</div>
+        <div className="speaker-role">Oracle ACE Pro，PostgreSQL ACE，IvorySQL 专家顾问委员，10年数据库行业经验，拥有OCM 11g/12c/19c、MySQL 8.0 OCP、Exadata、CDP等认证，墨天轮MVP，ITPUB认证专家，公众号【胖头鱼的鱼缸】主理人</div>
+      </div>
+      <div className="speaker-card">
         <div className="speaker-name">唐成</div>
-        <div className="speaker-role">资深数据库架构师，中启乘数科技创始人及 CTO，《PostgreSQL修炼之道：从小工到专家》作者，从业 20 多年，精通数据库分布式、高可用、容灾架构</div>
-      </div>
-      <div className="speaker-card">
-        <div className="speaker-name">林春</div>
-        <div className="speaker-role">中国太平洋保险数智研究院首席数据库专家，先后在中国银行、兴业银行等多家金融机构负责数据库系统设计、建设、运维，对金融行业数据库有非常丰富的经验</div>
-      </div>
-      <div className="speaker-card">
-        <div className="speaker-name">尹海文</div>
-        <div className="speaker-role">Oracle ACE Pro，PostgreSQL ACE，IvorySQL 专家顾问委员，10 年数据库行业经验，拥有 OCM、MySQL OCP 等认证，公众号【胖头鱼的鱼缸】主理人</div>
+        <div className="speaker-role">资深数据库架构师，中启乘数科技创始人及CTO，《PostgreSQL修炼之道：从小工到专家》作者，从业20多年，拥有20多年数据库及数据仓库、操作系统、存储领域的工作经验，精通数据库的分布式、高可用、容灾架构</div>
       </div>
       <div className="speaker-card">
         <div className="speaker-name">刘智龙</div>
-        <div className="speaker-role">10 年数据库运维经验，现就职于平安科技，任 PG 数据库专家，深耕 PG 数据库，懂源码、善排查疑难杂症，公众号【最后的DBA】主理人</div>
+        <div className="speaker-role">10年数据库运维经验，现就职于平安科技，任PG数据库专家，深耕PG数据库，懂源码、善排查疑难杂症，活跃的PG社区成员，公众号【最后的DBA】主理人</div>
       </div>
     </div>
 
-    <h2 className="section-title">PG 到底能扛多大？</h2>
+    <h2 className="section-title">直播内容回顾</h2>
+
+    <h3>单机能扛多大？——从OpenAI的8亿用户说起</h3>
     <div className="content-text">
-      2026 年 1 月，OpenAI 发了一篇技术博客：<b>"Scaling PostgreSQL to 800 million ChatGPT users"</b>。一个单主 PostgreSQL 实例，加上近 50 个只读副本，扛住了 8 亿用户、每秒数百万次查询。但 OpenAI 自己也承认：高写入流量下 MVCC 会引发严重的写入放大，他们不得不把写密集型工作负载迁移到 NoSQL。
+      本期直播以OpenAI用"1主+50从"架构支撑8亿用户的行业热点为切入点。在真实生产环境中，单机PG可以承载80TB级别的数据量，配合高性能NVMe存储，高峰期每秒写入WAL日志可达GB级别。但从事务ID消耗角度看，单机PG的写入TPS上限大约在3000左右，按21亿事务ID计算，一周多就会消耗殆尽，必须面对事务ID回卷的风险。
     </div>
     <div className="content-text">
-      <b>所以，PG 的极限到底在哪？</b>单机 PG 加顶配硬件，真的能撑到独角兽规模吗？什么时候必须上分布式？MVCC、表膨胀、autovacuum——大规模 PG 最怕的到底是什么？那些管过 10TB、25TB 甚至更大集群的人，凌晨三点被叫醒过多少次？
-    </div>
-    <div className="content-text">
-      这一期直播，<b>四位真正管过大规模 PG 生产环境的实战派老师</b>，把他们踩过的坑、趟过的路，全都摊开来讲。
+      关于OpenAI的案例：他们的成功建立在读多写少的业务模型之上；使用了微软云896 vCPU、32TB内存的顶配虚拟机，单台月租金高达17.5万美元；最关键的是对业务SQL做了深度优化。大多数行业（金融、互联网）的读写比通常只有2:8，盲目复制OpenAI架构风险极大。
     </div>
 
-    <h3>本期内容抢先看</h3>
-    <ul className="scene-list">
-      <li><b>板块一</b>：单机能扛多大？——从 OpenAI 的 8 亿用户说起</li>
-      <li><b>板块二</b>：什么时候必须分布式？——PG 扩展方案的真实边界</li>
-      <li><b>板块三</b>：大规模 PG 最怕什么？——MVCC、膨胀与 autovacuum</li>
-      <li><b>板块四</b>：真实案例复盘——那些差点让业务挂掉的事</li>
-    </ul>
+    <h3>什么时候必须分布式？——PG扩展方案的真实边界</h3>
+    <div className="content-text">
+      围绕单机PG的极限与分布式方案的选型边界，嘉宾们展开了深入讨论。从Citus、TimescaleDB到各种中间件方案，每种架构都有其适用场景和代价。关键是理解业务模型后选择合适的方案，而非盲目追求"分布式"。
+    </div>
 
-    <div className="cta-box">
-      <p>观看本次直播还能参与互动抽奖，精美好礼免费相送，边学技术边赢奖品！</p>
+    <h3>大规模PG最怕什么？——MVCC、膨胀与autovacuum</h3>
+    <div className="content-text">
+      MVCC、表膨胀、autovacuum是大规模PG运维中的核心挑战。嘉宾分享了多年积累的生产环境实践经验，包括autovacuum参数调优、膨胀检测与处理、以及如何避免大表VACUUM对业务的影响。
+    </div>
+
+    <h3>真实案例复盘——那些差点让业务挂掉的事</h3>
+    <div className="content-text">
+      分享了多个真实生产案例：从事务ID回卷的惊险处理，到大表膨胀导致的性能雪崩，再到主从延迟引发的数据不一致问题。每一个案例背后都是凌晨三点的紧急电话和多年经验的沉淀。
+    </div>
+
+    <h2 className="section-title">总结</h2>
+    <div className="content-text">
+      本期直播三位老师用真实的案例和坦诚的分享，深入剖析了大规模PG生产环境的底层真相。PG的极限不在代码里，而在业务模型、硬件配置和运维能力的结合点上。
     </div>
 
     <img className="event-main-img" src={useBaseUrl('/img/events/event-202610-poster.jpg')} alt="第四期直播海报" />
@@ -117,17 +123,17 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
   <div className="detail-sidebar">
     <div className="sidebar-box">
       <div className="sidebar-title">近期活动</div>
+      <a href="/zh-cn/events/event-202611" className="side-item">
+        <img className="side-item-img" src={useBaseUrl('/img/events/event-202611.jpg')} alt="南京站" />
+        <div className="side-item-title">活动预告｜PostgreSQL & IvorySQL Meetup 南京站</div>
+      </a>
       <a href="/zh-cn/events/event-202609" className="side-item">
         <img className="side-item-img" src={useBaseUrl('/img/events/event-202609.jpg')} alt="第三期" />
-        <div className="side-item-title">直播回顾｜PG 30周年系列直播第三期：从Oracle到PG——迁移的真实成本与避坑指南</div>
+        <div className="side-item-title">直播回顾｜PG 30周年系列直播第三期</div>
       </a>
       <a href="/zh-cn/events/event-202608" className="side-item">
         <img className="side-item-img" src={useBaseUrl('/img/events/event-202608.jpg')} alt="第二期" />
-        <div className="side-item-title">直播回顾｜PG 30 周年系列直播第二期——三十而立，根深叶茂</div>
-      </a>
-      <a href="/zh-cn/events/event-202606" className="side-item">
-        <img className="side-item-img" src={useBaseUrl('/img/events/event-202606.jpg')} alt="第一期" />
-        <div className="side-item-title">直播回顾｜PG 30 周年系列直播第一期——三十而立・全球时刻</div>
+        <div className="side-item-title">直播回顾｜PG 30 周年系列直播第二期</div>
       </a>
     </div>
   </div>
